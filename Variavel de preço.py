@@ -1,16 +1,19 @@
-#f
+#Variaveis de Preço
 p1 = 100
 p2 = 200
 p3 = 300
 
-t = p1+p2+p3
+#Formula para somar 
+numeros = [p1, p2, p3]
+total = sum(numeros)
 
+#Formula  fazer o desconto
 desc = 0
-if t > 500:
-    desc = t * 0.1
-    result = t - desc
-    r = t - desc
+if total > 500:
+    desconto = total * 0.1
+
+r = total - desconto
     
-    print("Total da compra", t)
-    print("Desconto aplicado", desc)
-    print ("Total com desconto", r)
+print("Total da compra", total)
+print("Desconto aplicado", desconto)
+print ("Total com desconto", r)
