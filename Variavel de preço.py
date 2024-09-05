@@ -1,5 +1,5 @@
 #Variaveis de Preço
-p1 = 100
+p1 = int(input("Coloque um numero"))
 p2 = 200
 p3 = 300
 
