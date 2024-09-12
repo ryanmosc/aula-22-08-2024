@@ -1,11 +1,12 @@
-texto = "Olámundo"
+with open("exemplo.txt", "r", encoding="utf-8") as arquivo:
+    conteudo = arquivo.read()
+    print(conteudo)
+    
+        
+                ##########################################
+    
+    
+with open("exemplo2.txt", "w", encoding="utf-8") as arquivo:
+        arquivo.write("Olá Mundo!")
+ 
 
-print(texto[:3])
-
-print(texto[3:9])
-
-print(texto[:])
-
-print(texto[4:8])
-
-print(texto[:-5])
